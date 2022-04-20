@@ -12,6 +12,11 @@ class spiderman{
     // movies = "3"
     // cinemaStudio = "Marvel/Sony Studios"
 
+    //Metodo getInfo()
+    getInfo(){
+        return `hey, i'm ${this.actor} from ${this.cinemaStudio}`
+    } 
+
 }
 
 module.exports = spiderman
