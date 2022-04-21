@@ -16,6 +16,17 @@ class UserService{
 
         return user.userName = "MisaelFB"
     }
+
+    static getAllUsernames(User){
+
+        let user1 = "MisaelFlores"
+        let user2 = "MisaelFlores2"
+        let user3 = "MisaelFlores3"
+
+        let usernames = [user1, user2, user3]
+
+        return usernames
+    }
 }
 
 module.exports = UserService
